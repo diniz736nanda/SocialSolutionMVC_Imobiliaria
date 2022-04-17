@@ -1,9 +1,7 @@
 ﻿using SocialSolutionMVC_Imobiliaria.Data;
 using SocialSolutionMVC_Imobiliaria.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace SocialSolutionMVC_Imobiliaria.Repository
 {

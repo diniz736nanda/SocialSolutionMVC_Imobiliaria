@@ -13,5 +13,7 @@ namespace SocialSolutionMVC_Imobiliaria.Models
         public string Email { get; set; }
         public string Cpf { get; set; }
         public StatusCliente StatusCliente { get; set; }
+        public List<ImovelModel> Imoveis { get; set; } = new List<ImovelModel>();
+
     }
 }

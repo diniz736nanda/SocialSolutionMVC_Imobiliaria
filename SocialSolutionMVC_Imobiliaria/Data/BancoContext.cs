@@ -14,7 +14,7 @@ namespace SocialSolutionMVC_Imobiliaria.Data
         }
 
         public DbSet<ClienteModel> Clientes { get; set; }
-       // public DbSet<ImovelModel> Imovel { get; set; }
+        public DbSet<ImovelModel> Imoveis { get; set; }
 
     }
 }
