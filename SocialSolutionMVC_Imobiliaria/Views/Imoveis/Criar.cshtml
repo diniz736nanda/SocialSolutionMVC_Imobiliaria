@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ClienteModel
+@{
     ViewData["Title"] = "Cadastrar Imoveis";
 }
 
@@ -8,7 +9,7 @@
 
 </div>
 
-<form>
+<form asp-controller="Imoveis" asp-action="Criar" method="post">
     <div class="form-group">
         <label for="tipNegocio">Tipo de Negócio</label>
         <input type="text" class="form-control" placeholder="Digite o Tipo de Negócio">

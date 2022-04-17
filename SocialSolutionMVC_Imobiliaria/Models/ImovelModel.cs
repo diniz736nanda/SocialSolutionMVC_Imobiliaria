@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SocialSolutionMVC_Imobiliaria.Models
 {
-    public class Imovel
+    public class ImovelModel
     {
         public int Id { get; set; }
         public TipNegocio TipoNegocio { get; set; }
@@ -16,3 +16,4 @@ namespace SocialSolutionMVC_Imobiliaria.Models
         public ClienteModel Cliente { get; set; }
     }
 }
+
