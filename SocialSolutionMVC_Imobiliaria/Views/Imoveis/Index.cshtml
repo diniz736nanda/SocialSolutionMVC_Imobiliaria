@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Imóveis";
+}
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-success" role="button" asp-controller="Imoveis" asp-action="Criar">Adicionar</a>
+    </div>
+    <br />
+
+    <h1 class="display-4">Listagem de Imóveis</h1>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">TipNegocio</th>
+                <th scope="col">VlrImovel</th>
+                <th scope="col">Desc</th>
+                <th scope="col">Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto@gmail.com</td>
+                <td>111.111.111-10</td>
+                <td>Ativo</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-primary" asp-controller="Imoveis" asp-action="Editar" asp-route-id="item.Id">Editar</a> |
+                        <a role="button" class="btn btn-danger" asp-controller="Imoveis" asp-action="DeletarConfirmacao" asp-route-id="item.Id">Apagar</a>
+                    </div>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>

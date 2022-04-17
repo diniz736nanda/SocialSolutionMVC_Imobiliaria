@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Cadastrar Imoveis";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Cadastrar imóveis</h1>
+
+</div>
+
+<form>
+    <div class="form-group">
+        <label for="tipNegocio">Tipo de Negócio</label>
+        <input type="text" class="form-control" placeholder="Digite o Tipo de Negócio">
+    </div>
+
+    <div class="form-group">
+        <label for="VlrImovel">Valor Imovel</label>
+        <input type="number" class="form-control" placeholder="Digite o valor">
+    </div>
+
+    <div class="form-group">
+        <label for="Desc">Descrição</label>
+        <input type="text" class="form-control" placeholder="Digite o CPF">
+    </div>
+
+    <div class="form-group">
+        <label for="status">Status</label>
+        <input type="text" class="form-control">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Adicionar</button>
+    <a class="btn btn-secondary" asp-controller="Imoveis" asp-action="Index" role="button">Voltar</a>
+</form>
